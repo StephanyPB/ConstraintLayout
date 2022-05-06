@@ -34,6 +34,17 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.3" />
 
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Stephany"
+        app:layout_constraintTop_toTopOf="@+id/guidelineTop"
+        app:layout_constraintBottom_toBottomOf="@+id/guidelineBotton"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+
+        />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
