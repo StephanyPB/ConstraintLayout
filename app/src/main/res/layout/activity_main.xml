@@ -13,14 +13,13 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
 
-    <TextView
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineEnd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stephany"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
 
-        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
